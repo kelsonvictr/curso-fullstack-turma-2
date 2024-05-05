@@ -1,0 +1,83 @@
+/* Reset de Margens e Preenchimentos para Corpo e Lista */
+/* 
+O padding no CSS é uma propriedade que define o espaçamento interno de um elemento em relação às suas bordas. Em outras palavras, o padding especifica a distância entre o conteúdo do elemento e suas bordas. Ele pode ser aplicado a todos os lados do elemento (topo, direita, baixo, esquerda) ou a cada lado individualmente.
+Essas linhas realizam um "reset" nas margens e preenchimentos padrão do navegador para os elementos body (corpo da página) e ul (listas não ordenadas), estabelecendo que ambos não terão margens ou preenchimentos.
+
+*/
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo Geral do Corpo 
+
+Aqui, estamos definindo o estilo geral para o corpo da página (body). Estabelece a fonte como 'Arial' (ou qualquer fonte sans-serif disponível) para o texto, define a cor de fundo como um cinza claro (#f4f4f4), e a cor do texto como um cinza escuro (#333).
+
+
+*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do Cabeçalho 
+
+Aqui, estamos estilizando o cabeçalho (header) da página. Define a cor de fundo como um azul (#007bff), a cor do texto como branco (#fff), adiciona um preenchimento interno de 10 pixels e centraliza o texto no cabeçalho.
+
+*/
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+/* Estilo das Seções de Experiência, Educação e Habilidades 
+
+Para as seções (section) de Experiência, Educação e Habilidades, estamos definindo algumas propriedades. Estabelece a largura como 80% da largura da janela, centraliza horizontalmente usando margin: 0 auto, define o fundo como branco (#fff), adiciona um preenchimento interno de 20 pixels, uma margem de 10 pixels acima e abaixo, adiciona cantos arredondados e uma sombra sutil.
+
+*/
+section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo das Listas sem Estilo 
+Estiliza listas não ordenadas (ul) removendo os marcadores padrão (list-style-type: none;) e eliminando qualquer preenchimento interno.
+
+*/
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo dos Itens de Lista (Experiência e Educação) 
+
+Define um espaçamento inferior de 10 pixels para os itens de lista (li) dentro das seções de Experiência e Educação.
+
+
+*/
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilo do Rodapé 
+
+Estiliza o rodapé (footer) da página. Centraliza o texto, adiciona um preenchimento interno de 10 pixels, define a cor de fundo como azul (#007bff), a cor do texto como branco (#fff), fixa o rodapé na parte inferior da janela e ocupa 100% da largura.
+
+*/
+footer {
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
