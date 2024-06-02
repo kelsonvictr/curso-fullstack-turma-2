@@ -1,0 +1,1 @@
+console.log("Vou detonar o JS!\nTeste");

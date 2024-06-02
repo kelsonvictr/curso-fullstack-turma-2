@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+
+    <label for="num1">Número 1:</label>
+    <input type="text" id="num1">
+
+    <!--
+        input num2, 4 botões (somar, subtrair, multiplicar e dividir)
+        eses botões terão onclick chamando as funções:
+        add(), subtract(), multiply(), divide()
+    -->
+
+    <label for="num2">Número 2:</label>
+    <input type="text" id="num2">
+
+    <button onclick="add()">Somar</button>
+    <button onclick="subtract()">Subtrair</button>
+    <button onclick="multiply()">Multiplicar</button>
+    <button onclick="divide()">Dividir</button>
+
+    <div id="result"></div>
+
+    <script src="./scripts/calculadora.js"></script>
+
+</body>
+</html>
