@@ -15,7 +15,7 @@ body {
 
 /* Estilização do container principal */
 .container {
-  max-width: 800px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
@@ -29,25 +29,20 @@ h1 {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 10px;
 }
 
-/* Estilização do container de imagens */
-.imagens {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+/* Estilização do botão */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* Estilização de cada imagem */
-.imagem {
-  margin: 20px;
-}
-
-/* Estilização das imagens */
-.imagem img {
-  max-width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+button:hover {
+  background-color: #219150;
 }
