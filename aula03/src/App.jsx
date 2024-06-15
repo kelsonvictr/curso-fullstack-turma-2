@@ -1,15 +1,16 @@
 import React from 'react'
 import './App.css'
+import Mensagem from './components/Mensagem'
 
 const App = () => {
-  /* Aqui eu quero um array de livros onde cada livro é um objeto literal com titulo autor e ano 
-  const livros = [ { titulo: "clean code", autor: "Bob", ano: 1999 } ]
-  */
+
 
   return (
     <div className="container">
-      {/* Importar a lista de Livros passndo como prop livros={livros} */}
-
+         <h1>Renderização Condicional Simples</h1>
+         <Mensagem tipo="sucesso" />
+         <Mensagem tipo="erro" />
+         <Mensagem tipo="aviso" />
     </div>
   )
 }
