@@ -3,38 +3,36 @@
 /* Estilização global */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Cor de fundo clara */
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Fundo degradê */
+  color: #ecf0f1; /* Texto claro */
   margin: 0;
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 /* Estilização do container principal */
 .container {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
 /* Estilização do título principal */
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   color: #333333;
+  text-align: center;
   margin-bottom: 20px;
   border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
 }
 
-/* Estilização de cada operação */
-.operacao {
-  padding: 15px;
+/* Estilização de cada conversão */
+.conversao {
+  padding: 20px;
   margin: 15px 0;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -42,13 +40,13 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
-/* Hover state para cada operação */
-.operacao:hover {
-  background-color: #e0e0e0;
+/* Hover state para cada conversão */
+.conversao:hover {
+  background-color: #f0f0f0;
 }
 
-/* Estilização do texto da operação */
-.operacao h1 {
+/* Estilização do texto da conversão */
+.conversao p {
   font-size: 18px;
   color: #555555;
   margin: 0;
