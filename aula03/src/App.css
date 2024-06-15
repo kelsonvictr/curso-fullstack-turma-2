@@ -15,7 +15,7 @@ body {
 
 /* Estilização do container principal */
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
@@ -33,33 +33,21 @@ h1 {
   padding-bottom: 10px;
 }
 
-/* Estilização de cada mensagem */
-.mensagem {
-  padding: 15px;
-  margin: 15px 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #fafafa;
-  transition: background-color 0.3s ease;
+/* Estilização do container de imagens */
+.imagens {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/* Hover state para cada mensagem */
-.mensagem:hover {
-  background-color: #f0f0f0;
+/* Estilização de cada imagem */
+.imagem {
+  margin: 20px;
 }
 
-/* Estilização dos textos das mensagens */
-.mensagem h1 {
-  font-size: 22px;
-  color: #27ae60; /* Verde para sucesso */
-}
-
-.mensagem h2 {
-  font-size: 20px;
-  color: #e74c3c; /* Vermelho para erro */
-}
-
-.mensagem h3 {
-  font-size: 18px;
-  color: #f39c12; /* Amarelo para aviso */
+/* Estilização das imagens */
+.imagem img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
