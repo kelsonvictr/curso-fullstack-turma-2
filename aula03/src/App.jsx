@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
-import HookContador from './components/HookContador'
+import TodoList from './components/TodoList'
 
 const App = () => {
 
   return (
     <div className="container">
-         <h1>Exemplo de Hook Contador</h1>
-         <HookContador />
+         <h1>Desafio de useState: To-Do List Simples</h1>
+         <TodoList />
     </div>
   )
 }

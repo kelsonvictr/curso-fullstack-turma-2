@@ -31,7 +31,21 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Estilização do botão */
+/* Estilização da lista de tarefas */
+.todo-list {
+  text-align: left;
+}
+
+/* Estilização do campo de texto */
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Estilização dos botões */
 button {
   font-size: 16px;
   padding: 10px 20px;
@@ -45,4 +59,18 @@ button {
 
 button:hover {
   background-color: #219150;
+}
+
+/* Estilização da lista de tarefas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
 }
