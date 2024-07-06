@@ -1,0 +1,129 @@
+/* Aplica um background à página inteira */
+body {
+    background-color: #d8ecf3;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    border: 1px solid #c3c3c3;
+    padding: 20px;
+    width: 700px;
+    margin: 40px auto;
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 2px solid #c3c3c3;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Define a largura da logo */
+    height: auto; /* Mantém a proporção da altura */
+  }
+  
+  .menu {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .menu a {
+    padding: 8px 12px;
+    background-color: #e0e0e0;
+    color: #3366ff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #c3c3c3;
+  }
+  
+  .menu a:hover {
+    background-color: #d0d0d0;
+    text-decoration: none;
+  }
+  
+  .form {
+    background-color: #ffffff;
+    border: 1px solid #c3c3c3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    width: 90%; /* Ajusta a largura dos inputs */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .postButton {
+    background-color: #ff3366;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .postButton:hover {
+    background-color: #ff6699;
+  }
+  
+  .cancelButton {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancelButton:hover {
+    background-color: #999;
+  }
+  
+  .scrapList {
+    margin-top: 20px;
+  }
+  
+  .scrap {
+    background-color: #ffffff;
+    border: 1px solid #c3c3c3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .scrap h4 {
+    margin: 0 0 5px 0;
+    color: #3366ff;
+  }
+  
+  .scrap p {
+    margin: 0;
+  }
+  
