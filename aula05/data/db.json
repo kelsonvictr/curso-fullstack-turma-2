@@ -1,0 +1,60 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "email": "maria@ufpb.br"
+    },
+    {
+      "id": 2,
+      "nome": "João Silva",
+      "email": "joao@ufpb.br"
+    },
+    {
+      "email": "jose@hotmail.com",
+      "nome": "José Silva",
+      "id": 3
+    },
+    {
+      "nome": "Fulaninho",
+      "email": "fulaninho@gmail.com",
+      "id": 4
+    },
+    {
+      "nome": "Fulaninho",
+      "email": "fulaninho@gmail.com",
+      "id": 5
+    }
+  ],
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Sistemas para Internet",
+      "descricao": "Tecnologo em Sistemas para Internet",
+      "duracao": 3,
+      "instrutor": "Kelson Almeida"
+    },
+    {
+      "id": 2,
+      "nome": "Sistemas de Informação",
+      "descricao": "Tecnologo em Sistemas para Internet",
+      "duracao": 3,
+      "instrutor": "Fujioka"
+    },
+    {
+      "nome": "Fullstack",
+      "descricao": "The best!",
+      "duracao": 12,
+      "instrutor": "Eu",
+      "id": 3
+    }
+  ],
+  "contatos": [
+    {
+      "nome": "Kelson",
+      "contato": "123",
+      "mensagem": "123",
+      "id": 1
+    }
+  ]
+}
