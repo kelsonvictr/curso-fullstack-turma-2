@@ -1,0 +1,132 @@
+/* Container do formulário */
+.formContainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título do formulário */
+.formContainer h2 {
+    font-size: 2rem;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Grupo de formulário */
+.formGroup {
+    margin-bottom: 20px;
+}
+
+/* Rótulo de formulário */
+.formGroup label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+/* Controle de formulário */
+.formControl {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formControl:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Botão de submissão */
+.btnSuccess {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btnSuccess:hover {
+    background-color: #218838;
+}
+
+/* Botão secundário */
+.btnSecondary {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btnSecondary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos do Modal */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.modalContent h2 {
+    margin-bottom: 20px;
+}
+
+.modalButtons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.btnSuccess {
+    width: 45%;
+}
+
+.btnSecondary {
+    width: 45%;
+}
