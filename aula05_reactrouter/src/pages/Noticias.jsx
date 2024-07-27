@@ -20,7 +20,7 @@ const Noticias = () => {
         <h1>Página de noticias</h1>
         {
             noticias.map(noticia => (
-                <h2 key={noticia.id}>{noticia.titulo}</h2>
+                <a href={`/visualizar-noticia/${noticia.id}`}><h2 key={noticia.id}>{noticia.titulo}</h2></a>
             ))
         }
     </div>
